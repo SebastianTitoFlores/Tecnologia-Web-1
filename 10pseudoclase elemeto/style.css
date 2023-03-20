@@ -1,0 +1,30 @@
+/* a{
+    background-color: aqua;
+} */
+.main_nav--item{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.main_nav--item{
+    display: inline-block;
+}
+.main_nav--item a{
+    color: black;
+    /* background-color: aquamarine; */
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.main_nav--item a:hover{
+    color: red;
+    font-size: 20px;
+
+}
+.main_nav--item a :active{
+    color: green;
+}
+.main_nav--item a::after{
+     content:" | ";
+}
