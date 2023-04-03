@@ -12,38 +12,35 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    /* flex-direction: row;
-    flex-direction: row-reverse;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-wrap: nowrap;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    justify-content: flex-end;
-    justify-content: flex-start;
-    justify-content: space-around;
-    justify-content: space-evenly; */
+
+    justify-content: space-evenly;
 }
+
 .box{
     width: 10rem;
     height: 10rem;
-
 }
+
 .box1{
     background-color: aqua;
 }
 .box2{
-    background-color: blue;
+    background-color: blueviolet;
+
 }
+
 .box3{
-    background-color:green;
+    background-color: yellow;
 }
+
 .box4{
-    background-color:red;
+    background-color: violet;
 }
+
 .box5{
-    background-color:purple;
+    background-color: chartreuse;
 }
+
 .box6{
-    background-color:orange;
+    background-color: yellowgreen;
 }

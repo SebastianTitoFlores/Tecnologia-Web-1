@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    background-color: blueviolet ;
+    display: flex;
+    flex-direction: column;
+}
+.container__menu{
+    background-image: url(pexels-mathias-reding-5838245\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 33vh;
+
+    
+}
+.container__principal{
+    background-color: #1f2233;
+    height: 33vh;
+}
+.container__footer{
+    background-color: #25273e;
+    height: 33vh;
+}
+.main__nav--item{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__nav--item{
+    display: inline-block;    
+}
+
+.main__nav--item a{
+    color: white;
+    /* background-color: blue; */
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.main__nav--item a:hover{
+    color: red;
+    font-size: 30px;
+}
+
+.main__nav--item a:active{
+    color: green;
+}
+
+.main__nav--item a::after{
+    content: " | ";
+}
+
